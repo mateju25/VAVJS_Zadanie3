@@ -12,9 +12,6 @@ const Customer = require('./models/Customer');
 const Product = require('./models/Product');
 const Order = require('./models/Order');
 const ProductGroup = require('./models/ProductGroup');
-const {where} = require("sequelize");
-
-
 let router = express.Router();
 
 

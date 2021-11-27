@@ -1,8 +1,8 @@
 const {Sequelize} = require("sequelize");
 let dbName = 'vavjs-eshop',
     username = 'postgres',
-    password = 'Korespondent2000',
-    host = '127.0.0.1'
+    password = 'postgres',
+    host = 'database';// '127.0.0.1'
 
 let conStringPost = 'postgres://' + username + ':' + password + '@' + host + '/' + dbName;
 console.log(conStringPost);

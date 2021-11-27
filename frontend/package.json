@@ -15,8 +15,7 @@
     "fetch-cookie": "^0.11.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "startDocker": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "mocha ./src/tests.js",
     "eject": "react-scripts eject"
